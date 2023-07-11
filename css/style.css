@@ -209,7 +209,7 @@ section {
   transition: 0.4s all ease;
 }
 #instagram-shared .instagram-shared-content .instagram-single-thumb img:hover {
-  filter: contrast(60%);
+  filter: contrast(70%);
 }
 /* ------------Latest udpate feature styels-----------  */
 #latest-update-feature .update-banner {
