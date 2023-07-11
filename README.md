@@ -1,5 +1,3 @@
-# flower-shop
-
 <h1 align="center" id="title">Flower Shop</h1>
 
 <p id="description">Flower Shop - A Captivating Online Flower Shop</p>
