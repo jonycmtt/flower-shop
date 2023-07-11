@@ -162,6 +162,7 @@ section {
 #discount-banner {
   background: rgba(229, 84, 115, 0.05);
   padding: 70px 0;
+  transform: 0.5s all ease;
 }
 #discount-banner .discount-banner-content {
   width: 85%;
@@ -205,8 +206,11 @@ section {
   width: 100%;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.4s all ease;
 }
-
+#instagram-shared .instagram-shared-content .instagram-single-thumb img:hover {
+  filter: contrast(60%);
+}
 /* ------------Latest udpate feature styels-----------  */
 #latest-update-feature .update-banner {
   padding: 110px 0;
@@ -254,7 +258,9 @@ section {
   margin: 50px 0 0;
   gap: 20px;
 }
-
+#blog-area .blog-container .single-blog-item {
+  cursor: pointer;
+}
 #blog-area .blog-container .single-blog-item .single-blog-thumb {
   width: 100%;
   border-radius: 5px;
@@ -285,6 +291,10 @@ i {
   color: #1c1c1c;
   font-weight: 700;
   margin: 13px 0;
+  transition: 0.4s all ease;
+}
+#blog-area .blog-container .single-blog-item .blog-title:hover {
+  color: #e55473;
 }
 #blog-area .blog-container .single-blog-item .blog-description {
   font-size: 16px;
