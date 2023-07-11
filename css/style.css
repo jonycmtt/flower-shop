@@ -1,4 +1,4 @@
-/* Import google fonts */
+/* ---------- Import google fonts ---------- */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
 /* Reset default styles */
@@ -112,19 +112,19 @@ section {
   align-items: flex-end;
   border-radius: 300px 300px 0px 0px;
 }
-#feature .features-flowers .features-flowers-item .pink {
+#feature .features-flowers .features-flowers-item .bg-01 {
   background: rgba(167, 33, 98, 0.15);
 }
-#feature .features-flowers .features-flowers-item .gray {
+#feature .features-flowers .features-flowers-item .bg-02 {
   background: rgba(5, 151, 160, 0.15);
 }
-#feature .features-flowers .features-flowers-item .purple {
+#feature .features-flowers .features-flowers-item .bg-03 {
   background: rgba(71, 125, 17, 0.15);
 }
 #feature .features-flowers .features-flowers-item .img-thumb img {
   width: 230px;
 }
-#feature .features-flowers .features-flowers-item .gray img {
+#feature .features-flowers .features-flowers-item .bg-02 img {
   align-self: center;
   transform: translateY(35px);
 }
@@ -200,9 +200,10 @@ section {
 #instagram-shared .instagram-shared-content .instagram-single-thumb img {
   width: 100%;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Latest udpate feature styels  */
+/* ------------Latest udpate feature styels-----------  */
 #latest-update-feature .update-banner {
   padding: 110px 0;
   background: url("../images/Rectangle 9.png") no-repeat;
@@ -228,7 +229,6 @@ section {
 #latest-update-feature .update-banner .update-banner-content form {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 8px;
 }
 #latest-update-feature .update-banner .update-banner-content form input {
@@ -242,7 +242,7 @@ section {
   padding: 18px 25px;
   width: 100%;
 }
-/* Blog Area styels  */
+/*-------------- Blog Area styels  -----------------*/
 #blog-area .blog-container {
   display: flex;
   justify-content: space-between;
@@ -289,7 +289,7 @@ i {
   line-height: 1.5;
   margin: 0 0 15px 0;
 }
-/* footer styles  */
+/* -------------- footer styles ------------------- */
 footer {
   background: #111010;
   padding: 128px 0;
