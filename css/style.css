@@ -49,10 +49,14 @@ section {
   background: #e55473;
   color: #fff;
   font-size: 18px;
-  font-weight: 700;
-  padding: 12px 25px;
+  font-weight: 600;
+  padding: 15px 30px;
   border: 0;
   cursor: pointer;
+  transition: 0.3s all ease;
+}
+.primary-btn:hover {
+  background: #e46f88;
 }
 
 /* header styles  */
