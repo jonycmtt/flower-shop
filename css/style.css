@@ -42,7 +42,6 @@ section {
   font-weight: 400;
   line-height: 25px;
 }
-/* Images fluid */
 
 /* primary button styles  */
 .primary-btn {
@@ -262,7 +261,17 @@ section {
   gap: 20px;
   margin: 10px 0;
 }
-#blog-area .blog-container .single-blog-item .blog-published-time span {
+#blog-area
+  .blog-container
+  .single-blog-item
+  .blog-published-time
+  .public-comment {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+}
+#blog-area .blog-container .single-blog-item .blog-published-time span,
+i {
   font-size: 16px;
   color: #b2b2b2;
 }
