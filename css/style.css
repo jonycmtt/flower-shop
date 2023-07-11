@@ -250,8 +250,11 @@ section {
   margin: 50px 0 0;
   gap: 20px;
 }
+
 #blog-area .blog-container .single-blog-item .single-blog-thumb {
   width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
 }
 #blog-area .blog-container .single-blog-item .blog-published-time {
   display: flex;
@@ -262,6 +265,19 @@ section {
 #blog-area .blog-container .single-blog-item .blog-published-time span {
   font-size: 16px;
   color: #b2b2b2;
+}
+#blog-area .blog-container .single-blog-item .blog-title {
+  font-size: 20px;
+  color: #1c1c1c;
+  font-weight: 700;
+  margin: 13px 0;
+}
+#blog-area .blog-container .single-blog-item .blog-description {
+  font-size: 16px;
+  color: #6f6f6f;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
 }
 /* footer styles  */
 footer {
